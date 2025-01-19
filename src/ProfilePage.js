@@ -132,9 +132,15 @@ const ProfilePage = () => {
           width: "90%",
         }}
       >
-        <p className="upload-text" style={{ color: "white", fontSize: "1.2rem" }}>
+        <label htmlFor="file-upload" className="upload-text" style={{ cursor: "pointer" }}>
           Upload or drag your files here
-        </p>
+        </label>
+        <input
+          type="file"
+          id="file-upload"
+          style={{ display: "none" }}
+          onChange={(e) => console.log(e.target.files[0])}
+        />
       </div>
     </div>
   );
