@@ -8,7 +8,7 @@ const courses = [
   "MIE100-Dynamics",
   "MAT188-Linear Algebra",
   "MAT186-Calculus I",
-  "ECE110-Electrical-Fundamentals",
+  "ECE110-Electrical Fundamentals",
   "APS110-Introduction to Materials and Chemistry",
   "APS105-Computer Fundamentals",
 ];
@@ -31,6 +31,7 @@ const Home = () => {
   };
 
   const handleCourseClick = (course) => {
+    console.log(course);
     console.log("Encoded Course:", encodeURIComponent(course)); // Log the encoded course
     navigate(`/course/${encodeURIComponent(course)}`);
   };
