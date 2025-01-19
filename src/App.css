@@ -1,0 +1,187 @@
+/* General styling for the app */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(300deg, deepskyblue, darkviolet, blue);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite; /* Reduced duration to 8s */
+  color: #333;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.app-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: white;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.9);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px 15px;
+  flex-grow: 1;
+  background: none;
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+}
+
+.search-bar button {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+  background: #333;
+}
+
+/* Dropdown menu */
+.dropdown {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+.dropdown li:hover {
+  background: #f9f9f9;
+}
+
+/* Search results */
+.search-results {
+  margin-top: 20px;
+}
+
+.search-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-results li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Professor page */
+.professor-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.professor-page h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.professor-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.professor-page li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.professors-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.professor-card {
+  text-align: center;
+  width: 150px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.professor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 20);
+}
+
+.professor-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
