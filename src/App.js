@@ -1,7 +1,9 @@
+// App.js
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css";
 import ProfessorPage from "./ProfessorPage";
+import ProfilePage from "./ProfilePage";
 
 const courses = [
   "CIV100-Mechanics",
@@ -31,11 +33,8 @@ const Home = () => {
   };
 
   const handleCourseClick = (course) => {
-    console.log(course);
-    console.log("Encoded Course:", encodeURIComponent(course)); // Log the encoded course
     navigate(`/course/${encodeURIComponent(course)}`);
   };
-  
 
   return (
     <div className="gradient-container">
@@ -88,6 +87,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/course/:course" element={<ProfessorPage />} />
+        <Route path="/profile/:professorName" element={<ProfilePage />} />
       </Routes>
     </Router>
   );
