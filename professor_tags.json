@@ -1,0 +1,152 @@
+{
+  "Anthony Sinclair": {
+    "funny": 2,
+    "amazing": 1,
+    "clear": 1,
+    "awesome": 1,
+    "understanding": 1,
+    "hilarious": 1
+  },
+  "Armanpreet Pannu": {
+    "amazing": 3,
+    "clear": 3,
+    "dedicated": 1,
+    "engaging": 1,
+    "understanding": 1,
+    "funny": 1,
+    "helpful": 1,
+    "awesome": 1,
+    "inspirational": 1
+  },
+  "Belinda Wang": {
+    "clear": 7,
+    "amazing": 2,
+    "helpful": 2,
+    "funny": 2,
+    "understanding": 1,
+    "organized": 1,
+    "friendly": 1
+  },
+  "Berj Bardakjian": {
+    "clear": 2,
+    "awesome": 2,
+    "knowledgeable": 1,
+    "amazing": 1,
+    "supportive": 1,
+    "helpful": 1
+  },
+  "Camelia Karimian Pour": {
+    "amazing": 4,
+    "clear": 1,
+    "engaging": 1,
+    "organized": 1
+  },
+  "Denis Gorodkov": {
+    "amazing": 4,
+    "helpful": 4,
+    "engaging": 2,
+    "organized": 2,
+    "clear": 1,
+    "dedicated": 1
+  },
+  "Dinushi Munasinghe": {
+    "hilarious": 1,
+    "helpful": 1,
+    "engaging": 1,
+    "clear": 1
+  },
+  "Earl Magsipoc": { "awesome": 1 },
+  "Geoffrey McGregor": {
+    "helpful": 3,
+    "amazing": 3,
+    "awesome": 1,
+    "clear": 1,
+    "engaging": 1
+  },
+  "Jason Siefken": {
+    "helpful": 6,
+    "understanding": 4,
+    "engaging": 3,
+    "clear": 3,
+    "amazing": 2,
+    "organized": 2,
+    "inspirational": 2,
+    "awesome": 1,
+    "knowledgeable": 1,
+    "friendly": 1
+  },
+  "Jon Eyolfson": {
+    "helpful": 3,
+    "amazing": 2,
+    "organized": 2,
+    "engaging": 1,
+    "clear": 1,
+    "funny": 1,
+    "understanding": 1
+  },
+  "Khoman Phang": {
+    "clear": 3,
+    "helpful": 2,
+    "friendly": 1,
+    "amazing": 1,
+    "funny": 1
+  },
+  "Krzysztof Ciosmak": {},
+  "Luis Ardila": { "engaging": 1 },
+  "Michael Seica": {
+    "helpful": 8,
+    "clear": 3,
+    "amazing": 2,
+    "understanding": 2,
+    "engaging": 1,
+    "knowledgeable": 1
+  },
+  "Oya Mercan": {
+    "amazing": 1,
+    "clear": 1,
+    "supportive": 1,
+    "hilarious": 1,
+    "helpful": 1
+  },
+  "Paul Yoo": { "amazing": 1, "awesome": 1 },
+  "Salma Emara": {
+    "amazing": 6,
+    "engaging": 4,
+    "dedicated": 3,
+    "clear": 2,
+    "awesome": 1,
+    "helpful": 1
+  },
+  "Scott Ramsay": {
+    "amazing": 16,
+    "engaging": 6,
+    "helpful": 6,
+    "understanding": 6,
+    "clear": 5,
+    "organized": 4,
+    "funny": 3,
+    "inspirational": 2,
+    "dedicated": 2,
+    "encouraging": 1
+  },
+  "Shai Cohen": {
+    "helpful": 8,
+    "clear": 8,
+    "funny": 6,
+    "inspirational": 4,
+    "amazing": 3,
+    "knowledgeable": 3,
+    "awesome": 3,
+    "understanding": 3,
+    "engaging": 1
+  },
+  "Shoshanna Saxe": { "helpful": 1 },
+  "Tim Bender": { "awesome": 2, "funny": 1 },
+  "Xilin Liu": {
+    "clear": 3,
+    "helpful": 2,
+    "understanding": 2,
+    "amazing": 2,
+    "awesome": 1
+  }
+}
