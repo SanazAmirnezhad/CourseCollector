@@ -68,32 +68,3 @@ The **Professor Overview Website** is designed to help first-year engineering st
 1. Visit `http://localhost:3000` to access the platform.
 2. Browse professor ratings organized by course.
 3. Upload a syllabus to extract and summarize key details.
-
-## Contribution Guidelines
-We welcome contributions to improve the platform! Here’s how you can help:
-- Report bugs or suggest features via the [issues page](https://github.com/yourusername/professor-overview/issues).
-- Fork the repository and create a pull request for any enhancements.
-
-### Steps to Contribute
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Create a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-For any inquiries or support, please contact:
-- **Email**: [your-email@example.com]
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
