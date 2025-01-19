@@ -18,7 +18,7 @@ const professors = {
     { name: "Camelia Karimian Pour", image: "/Camelia Karimian Pour.jpeg" },
     { name: "Denis Gorodkov", image: "/Denis Gorodkov.png" },
     { name: "Krzysztof Ciosmak", image: "/Krzysztof Ciosmak.jpg" },
-    { name: "Dinushi Munasinghe", image: "/Dinushi Munasinghe.png" },
+    { name: "Dinushi Munasinghe", image: "/Dinushi Munasinghe.jpeg" },
   ],
   "MAT186-Calculus I": [
     { name: "Jason Sieken", image: "/JASON SIEFKEN.jpg" },
@@ -60,7 +60,16 @@ const ProfessorPage = () => {
 
   return (
     <div className="professor-page">
-      <h2>Professors for {decodedCourse}</h2>
+      <h2
+        style={{
+          fontSize: "10 rem",
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "40px",
+        }}
+      >
+        Professors for {decodedCourse}
+      </h2>
       <div className="professors-container">
         {professorList.map((professor, index) => (
           <div
