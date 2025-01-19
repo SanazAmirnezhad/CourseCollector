@@ -31,6 +31,7 @@ const Home = () => {
   };
 
   const handleCourseClick = (course) => {
+    console.log(course);
     console.log("Encoded Course:", encodeURIComponent(course)); // Log the encoded course
     navigate(`/course/${encodeURIComponent(course)}`);
   };
