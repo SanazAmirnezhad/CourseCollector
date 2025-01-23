@@ -23,8 +23,6 @@ The **Professor Overview Website** is designed to help first-year engineering st
 - **Backend**: Python Flask
 - **Frontend**: React
 - **AI Integration**: NLP models for summarization
-- **Database**: [Insert your database solution, e.g., PostgreSQL, MongoDB]
-- **APIs**: [Specify APIs used, if any]
 
 ## Getting Started
 
